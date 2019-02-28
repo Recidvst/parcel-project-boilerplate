@@ -1,0 +1,22 @@
+// imports
+@import 'variables.scss';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f4f4f4;
+  h1 {
+    padding: 10px 15px;
+    background: $red;
+    color: lightgoldenrodyellow;
+  }
+  h2 {
+    display: block;
+  }
+  #cape-town-img {
+    max-width: 800px;
+  }
+}
