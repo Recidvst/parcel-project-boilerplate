@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "env": {
+      "browser": true,
+      "node": true,
+  },
+  "globals": {
+    "window": true,
+    "ga": true
+  },
+  "rules": {
+    "no-console": ["error", { allow: ["warn"] }],
+    "eol-last": "off"
+  }
+}
